@@ -1,0 +1,124 @@
+[class*=col-]{
+  border: solid 0.5px black;
+}
+
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.alto-todo{
+  height: 100%;
+}
+
+.margin-auto{
+  margin: auto;
+}
+
+/* header-menu */
+header section .container .nav-menu{
+  min-height: 50px;
+  line-height: 50px;
+}
+
+/* header-jumbotrom */
+.sfondo-jumbotrom{
+  background-color: cornflowerblue;
+}
+
+.jumbotrom{
+  max-width: 1200px;
+  height: 350px;
+  margin: auto;
+  padding: 2% 1%;
+  color: white;
+}
+
+/* main- sponsors */
+.sponsors{
+  background-color: #F3F5F9;
+}
+
+.row-sponsors{
+  height: 150px;
+  line-height: calc(150px/3);
+}
+
+/* main-deploy */
+.text-deploy{
+  padding-top: 35px;
+  padding-bottom: 40px;
+}
+
+.deploy-cont{
+  margin: 0 5%;
+  min-height: 300px;
+}
+
+/* main-desing for developers */
+.desing-cont{
+  background-color: #F3F5F9;
+}
+
+.img-desing{
+  height: 300px;
+  line-height: 300px;
+}
+
+.text-design{
+ padding: 0 15%;
+}
+
+/* main-features your */
+.features-cont{
+  min-height: 300px;
+  padding: 30px 15px;
+}
+
+/* main paises */
+.paises-cont{
+  min-height: 300px;
+  color: white;
+  background-color: blue;
+}
+
+.paises-row{
+ max-width: 1170px;
+ margin: auto;
+ padding: 40px 0;
+}
+
+/* main development */
+.development-cont{
+  background-color: #F3F5F9;
+  margin-top: 30px;
+}
+
+.img-development{
+  height: 300px;
+  line-height: 300px;
+}
+
+.text-development{
+ padding: 0 15%;
+}
+
+/* main- star bottom */
+.star-bottom{
+  height: 150px;
+  color: white;
+  background-color: blue;
+}
+.star-bottom-text{
+  height: 150px;
+  padding: 4%;
+}
+
+/* footer */
+footer .row{
+  min-height: 400px;
+  padding: 2% 15%;
+  color: white;
+  background-color: rgb(3, 3, 92);
+}
