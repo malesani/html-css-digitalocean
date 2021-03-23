@@ -70,9 +70,10 @@ header section .menu-right span a .btn{
 .jumbotrom{
   min-height: 350px;
   padding: 3% 0%;
-  color: white;
+  color: 
+  white;
 }
-
+/* text-jumbotrom */
 .sfondo-jumbotrom .jumbotrom .text-jumbotrom{
   padding: 0% 1%;
 }
@@ -86,6 +87,7 @@ header section .menu-right span a .btn{
   line-height: 25px;
 }
 
+/* registration jumbotrom */
 .sfondo-jumbotrom .container .jumbotrom .registration{
   min-height: 300px;
   border-radius: 5px;
@@ -93,17 +95,62 @@ header section .menu-right span a .btn{
   line-height: 25px;
   background-color: white;
   color: black;
-  
+}
+
+.sfondo-jumbotrom .container .jumbotrom .registration .get-started{
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.sfondo-jumbotrom .container .jumbotrom .registration input{
+  margin: 10px 0;
+}
+
+.sfondo-jumbotrom .container .jumbotrom .registration span{
+  position: relative;
+  font-size: 15px;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+.sfondo-jumbotrom .container .jumbotrom .registration span i{
+  position: absolute;
+  left: 10px;
+}
+
+.sfondo-jumbotrom .container .jumbotrom .registration p{
+  margin-top: 8px;
+  font-size: 12px;
+}
+
+.sfondo-jumbotrom .container .jumbotrom .registration p a{
+  text-decoration: underline;
 }
 
 /* main- sponsors */
-.sponsors{
+main .sponsors{
+  width: 100%;
   background-color: #F3F5F9;
 }
 
-.row-sponsors{
-  height: 150px;
-  line-height: calc(150px/3);
+main section .row-sponsors{
+  min-height: 150px;
+}
+
+main section .row-sponsors h5{
+  padding-top: 35px;
+  color: rgb(153, 152, 152);
+}
+
+main section .row-sponsors .img-sponsors img{
+ width: auto;
+ height: 60px;
+}
+
+main section .row-sponsors:nth-child(3){
+  padding: 10px;
+}
+main section .row-sponsors a{
+  text-decoration: none;
 }
 
 /* main-deploy */
