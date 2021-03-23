@@ -112,6 +112,7 @@ header section .menu-right span a .btn{
   padding: 8px;
   margin-bottom: 8px;
 }
+
 .sfondo-jumbotrom .container .jumbotrom .registration span i{
   position: absolute;
   left: 10px;
@@ -133,7 +134,8 @@ main .sponsors{
 }
 
 main section .row-sponsors{
-  min-height: 150px;
+  min-height: 250px;
+  padding: 2% 3%;
 }
 
 main section .row-sponsors h5{
@@ -141,14 +143,15 @@ main section .row-sponsors h5{
   color: rgb(153, 152, 152);
 }
 
-main section .row-sponsors .img-sponsors img{
- width: auto;
- height: 60px;
+main section .row-sponsors ul{
+  height: 100px;
+  line-height: 100px;
 }
 
-main section .row-sponsors:nth-child(3){
-  padding: 10px;
+main section .row-sponsors li{
+  list-style: none;
 }
+
 main section .row-sponsors a{
   text-decoration: none;
 }
@@ -161,6 +164,21 @@ main section .row-sponsors a{
 
 .deploy-cont{
   min-height: 300px;
+}
+
+main section .deploy-cont ul{
+  list-style: none;
+  padding: 0 10px;
+  border-left: lightgray 0.5px solid;
+}
+
+main section .deploy-cont ul li{
+  padding-bottom: 10px;
+}
+
+main section .deploy-cont ul li a{
+  text-decoration: none;
+  color: rgb(117, 117, 117);
 }
 
 /* main-desing for developers */
