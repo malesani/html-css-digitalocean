@@ -4,31 +4,86 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Digital-Ocean</title>
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <title>Digital-Ocean</title>
   </head>
+
   <body>
     <header>
       <!-- header-menu -->
       <section>
         <div class="container">
           <div class="row nav-menu">
-            <div class="alto-todo text-center col-md-3">Logo</div>
-            <div class="alto-todo text-center menu-center col-md-5">NAV</div>
-            <div class="alto-todo text-center menu-right col-md-4">NAV</div>
+            <div class="alto-todo col-md-2 col-xs-6">
+              <img src="img/logo.png" alt="logo">
+            </div>
+            <!-- prima nav -->
+            <div class="col-xs-6 hidden-md hidden-lg text-right">
+              <span col class="glyphicon glyphicon-menu-hamburger" aria-hidden="true">  
+              </span>
+            </div>
+            <div class="alto-todo text-center menu-center col-md-6 hidden-xs hidden-sm">
+              <span>
+                <a href="#">Products <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+              </span>
+              <span>
+                <a href="#">customers</a>
+              </span>
+              <span>
+                <a href="#">Community <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+              </span>
+              <span>
+                <a href="#">Pricing</a>
+              </span>
+            </div>
+            <!-- seconda nav -->
+            <div class="alto-todo text-right menu-right col-md-4 hidden-xs hidden-sm">
+              <span>
+                <a href="#">Docs</a>
+                <a href="#">Suppport <span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
+                <a href="#">Login</a>
+                <a href="#">
+                  <button type="button" class="btn btn-default navbar-btn">Sign in</button>
+                </a>
+              </span>
+            </div>
           </div>
         </div>
       </section>
 
       <!-- header-jumbotrom -->
       <section>
-        <div class="container-fluid sfondo-jumbotrom">
-          <div class="row jumbotrom clearfix">
-            <div class="alto-todo col-md-7">a</div>
-            <div class="alto-todo col-md-5">a</div>
-          </div>  
+        <div class="sfondo-jumbotrom">
+          <div class="container">
+            <div class="row jumbotrom">
+              <!-- text sinistra -->
+              <div class="alto-todo col-md-7 col-sm-7 col-xs-12 text-jumbotrom">
+                <h2>The simplest cloud platform for developers &amp teams</h2>
+                <p>Deploy,manage,and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses,whether you're running one virtual macchine or ten thousand.</p>
+              </div>
+              <!-- registration -->
+              <div class="alto-todo col-md-5 col-sm-5 col-xs-12 registration text-center">
+                <h3>Deploy your app in seconds.</h3>
+                <a href="">Get started now.</a>
+                <input type="text" class="form-control" placeholder="Email">
+                <input type="text" class="form-control" placeholder="Password">
+                <span class="label label-default largo-todo inline-block">
+                  create your account
+                </span>
+                <span class="label label-default largo-todo inline-block">
+                  <i class="fab fa-google"></i>
+                  Sign up with google
+                </span>
+              </div>
+            </div>  
+          </div>
         </div>
       </section>
     </header>
@@ -39,7 +94,16 @@
         <div class="container-fluid sponsors">
           <div class="row row-sponsors">
             <div class="text-center coll-md-12">text</div>
-            <div class="text-center coll-md-12">logi</div>
+            <div class="text-center coll-md-12">
+              <div class="row largo-todo"><!--pregunta scroll-->
+                <div class="col-sm-2 col-xs-6">Logo</div>
+                <div class="col-sm-2 col-xs-6">Logo</div>
+                <div class="col-sm-2 col-xs-6">Logo</div>
+                <div class="col-sm-2 col-xs-6">Logo</div>
+                <div class="col-sm-2 col-xs-6">Logo</div>
+                <div class="col-sm-2 col-xs-6">Logo</div>
+              </div>
+            </div>
             <div class="text-center coll-md-12">link</div>
           </div>
         </div>
@@ -56,13 +120,13 @@
         <section>
           <div class="container">
             <div class="row deploy-cont">
-              <div class="col-md-4 text-center">List</div>
-              <div class="col-md-8">
+              <div class="col-sm-4 text-center">List</div>
+              <div class="col-sm-8">
                   <div class="row">
-                    <div class="col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam esse debitis inventore ipsam, soluta omnis ut nam saepe fugiat facilis consectetur possimus in quo aperiam consequatur deleniti aut enim doloremque.</div>
-                    <div class="col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, hic quos sint facere fuga porro consequuntur laborum, dolorum error et blanditiis tempore, molestias nulla incidunt corporis quam repellat iure nam!</div>
-                    <div class="col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime reprehenderit a quibusdam perspiciatis harum dolor aut mollitia quaerat ullam expedita, cumque alias nesciunt ex voluptas necessitatibus. Animi id eius ullam!</div>
-                    <div class="col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, sunt? Repellat consequatur omnis, iste voluptatum autem fugit laboriosam facere veniam sapiente saepe eligendi molestias sed! Quaerat vero consectetur labore reprehenderit?</div>
+                    <div class="col-sm-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod ad quidem, veritatis porro vitae quas atque alias recusandae iste. Quos?</div>
+                    <div class="col-sm-6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, modi natus? Incidunt minima quo omnis aliquam rerum quae adipisci necessitatibus!</div>
+                    <div class="col-sm-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eligendi aliquam optio perferendis blanditiis ducimus dolores quisquam, corrupti commodi dolorem?</div>
+                    <div class="col-sm-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem natus minima totam delectus odio libero dicta iusto ex voluptatem at.</div>
                   </div>
               </div>
             </div>
@@ -79,6 +143,8 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, id? Veritatis impedit quod autem modi, consequuntur nesciunt ducimus ad provident libero corporis aut eveniet iusto, dolorem aperiam labore expedita explicabo?</p>
             </div>
             <div class="col-md-12 text-center img-desing ">img</div>
+            <div class="col-md-12 text-center">text</div>
+            <div class="col-md-12 text-center">pallini</div>
           </div>
         </div>
       </section>
@@ -92,9 +158,9 @@
             </div>
             <div class="col-md-12">
               <div class="row">
-                <div class="col-md-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero perspiciatis dicta provident unde rerum adipisci aliquam maxime sed odio, distinctio repudiandae, sint itaque quibusdam, velit magni consectetur cumque commodi sit.</div>
-                <div class="col-md-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quaerat placeat illum corrupti magnam quod ea, necessitatibus repellendus assumenda eveniet? Iusto maxime repellat animi laudantium quia consequuntur similique hic ab.</div>
-                <div class="col-md-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda voluptate eveniet aut, voluptas itaque aliquam et esse veritatis consequatur vitae dolor optio quis voluptatibus iure vel atque sint rerum illo!</div>
+                <div class="col-sm-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero perspiciatis dicta provident unde rerum adipisci aliquam maxime sed odio, distinctio repudiandae, sint itaque quibusdam, velit magni consectetur cumque commodi sit.</div>
+                <div class="col-sm-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quaerat placeat illum corrupti magnam quod ea, necessitatibus repellendus assumenda eveniet? Iusto maxime repellat animi laudantium quia consequuntur similique hic ab.</div>
+                <div class="col-sm-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda voluptate eveniet aut, voluptas itaque aliquam et esse veritatis consequatur vitae dolor optio quis voluptatibus iure vel atque sint rerum illo!</div>
               </div>
             </div>
           </div>
@@ -108,8 +174,68 @@
             <div class="col-md-12 text-center">
               <h3>Service your customers around the world from 12 regions</h3>
             </div>
-            <div class="col-md-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ipsa esse cumque mollitia omnis maiores suscipit, praesentium excepturi quae exercitationem. Natus blanditiis nulla amet repudiandae eveniet assumenda et ducimus molestias architecto fugiat at impedit temporibus, quasi similique? Reiciendis dolorem sapiente, laborum, repellendus fugit quam maxime molestias voluptatum ipsum optio delectus deserunt, aliquid similique ad qui nihil veritatis est praesentium dolores ab vero dolor? Vitae fugiat, hic tempora ratione assumenda consequuntur aut ut, reiciendis, commodi perferendis totam illum. Voluptatem blanditiis mollitia sed ea neque corrupti nisi, deserunt repellendus temporibus quas, officia non doloremque perspiciatis voluptates autem aperiam, doloribus laborum molestiae nemo.</div>
-            <div class="col-md-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime nobis quas doloribus, molestias impedit aspernatur saepe. Ab excepturi deserunt consectetur voluptatem deleniti dolorum possimus, nisi ipsa id, accusamus tenetur quidem error odio reiciendis modi harum praesentium natus. Unde ullam impedit aperiam beatae sint enim quisquam at aut suscipit, deserunt atque ut qui molestias quam inventore culpa neque veritatis voluptates nobis porro accusamus. Ullam quibusdam esse consectetur debitis aliquid quidem minus saepe est provident, quo impedit neque veritatis, similique exercitationem nihil voluptatem totam asperiores modi molestias maxime dolore voluptatibus voluptates. Nesciunt dolorem mollitia sed numquam vitae rerum, repellendus maxime reiciendis sint.</div>
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-xs-3">4</div>
+                <div class="col-xs-6">4</div>
+                <div class="col-xs-3">4</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-3">4</div>
+                <div class="col-xs-6">4</div>
+                <div class="col-xs-3">4</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-3">4</div>
+                <div class="col-xs-6">4</div>
+                <div class="col-xs-3">4</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-3">4</div>
+                <div class="col-xs-6">4</div>
+                <div class="col-xs-3">4</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-3">4</div>
+                <div class="col-xs-6">4</div>
+                <div class="col-xs-3">4</div>
+              </div><div class="row">
+                <div class="col-xs-3">4</div>
+                <div class="col-xs-6">4</div>
+                <div class="col-xs-3">4</div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-xs-3">4</div>
+                <div class="col-xs-6">4</div>
+                <div class="col-xs-3">4</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-3">4</div>
+                <div class="col-xs-6">4</div>
+                <div class="col-xs-3">4</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-3">4</div>
+                <div class="col-xs-6">4</div>
+                <div class="col-xs-3">4</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-3">4</div>
+                <div class="col-xs-6">4</div>
+                <div class="col-xs-3">4</div>
+              </div>
+              <div class="row">
+                <div class="col-xs-3">4</div>
+                <div class="col-xs-6">4</div>
+                <div class="col-xs-3">4</div>
+              </div><div class="row">
+                <div class="col-xs-3">4</div>
+                <div class="col-xs-6">4</div>
+                <div class="col-xs-3">4</div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -142,11 +268,11 @@
     <footer>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt corrupti eum odio assumenda molestias facilis! Modi maxime velit dolorem autem tenetur, at, voluptates amet sit recusandae, aliquid sapiente hic.</div>
-          <div class="col-md-2">Company</div>
-          <div class="col-md-2">Products</div>
-          <div class="col-md-2">Community</div>
-          <div class="col-md-2">Support</div>
+          <div class="col-md-4 col-sm-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt corrupti eum odio assumenda molestias facilis! Modi maxime velit dolorem autem tenetur, at, voluptates amet sit recusandae, aliquid sapiente hic.</div>
+          <div class="col-md-2 col-sm-6">Company</div>
+          <div class="col-md-2 col-sm-6">Products</div>
+          <div class="col-md-2 col-sm-6">Community</div>
+          <div class="col-md-2 col-sm-6">Support</div>
         </div>
       </div>
     </footer>

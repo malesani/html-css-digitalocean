@@ -1,5 +1,10 @@
+/* general */
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
 [class*=col-]{
-  border: solid 0.5px black;
+  
 }
 
 .clearfix::after{
@@ -8,8 +13,15 @@
   display: table;
 }
 
+.inline-block{
+  display: inline-block;
+}
 .alto-todo{
   height: 100%;
+}
+
+.largo-todo{
+  width: 100%;
 }
 
 .margin-auto{
@@ -18,21 +30,70 @@
 
 /* header-menu */
 header section .container .nav-menu{
-  min-height: 50px;
-  line-height: 50px;
+  height: 55px;
+  line-height: 55px;
+  vertical-align: middle;
+}
+
+header section img{
+  height: 30px;
+}
+
+header section .container span a{
+  padding: 0 8px;
+  color: black;
+  text-decoration: none;
+}
+
+header section .container span.glyphicon-menu-hamburger{
+  color: #318CFD;
+}
+
+header section .container span.glyphicon-menu-down{
+vertical-align: text-top;
+}
+
+header section .menu-right span a .btn{
+  color: #318CFD;
+  border-color: #318CFD;
 }
 
 /* header-jumbotrom */
 .sfondo-jumbotrom{
-  background-color: cornflowerblue;
+  width: 100%;
+  background-image: url(../img/bg-banner-home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .jumbotrom{
-  max-width: 1200px;
-  height: 350px;
-  margin: auto;
-  padding: 2% 1%;
+  min-height: 350px;
+  padding: 3% 0%;
   color: white;
+}
+
+.sfondo-jumbotrom .jumbotrom .text-jumbotrom{
+  padding: 0% 1%;
+}
+
+.sfondo-jumbotrom .jumbotrom .text-jumbotrom h2{
+  font-size: 50px;
+}
+
+.sfondo-jumbotrom .container .jumbotrom .text-jumbotrom p{
+  color: lightgray;
+  line-height: 25px;
+}
+
+.sfondo-jumbotrom .container .jumbotrom .registration{
+  min-height: 300px;
+  border-radius: 5px;
+  padding: 2% 2%;
+  line-height: 25px;
+  background-color: white;
+  color: black;
+  
 }
 
 /* main- sponsors */
@@ -52,7 +113,6 @@ header section .container .nav-menu{
 }
 
 .deploy-cont{
-  margin: 0 5%;
   min-height: 300px;
 }
 
